@@ -69,12 +69,12 @@
 //Throttle settings
 #define THROTTLE_OFFSET 1250   //only default value, throttle offset is set at startup automatically
 #define THROTTLE_MAX 2850
-#define THROTTLE_OVERRIDE
+//#define THROTTLE_OVERRIDE // führt mit Drehmomentsensor zum Pulsen im Stand!
 
 //--------------------------------------------------------------------
 //Speed settings
 #define WHEEL_CIRCUMFERENCE 2200
-#define GEAR_RATIO 75 //11 for BionX IGH3
+#define GEAR_RATIO 95 //95 for MAC
 #define SPEEDLIMIT 25
 #define PULSES_PER_REVOLUTION 1
 #define SPEEDSOURCE INTERNAL
@@ -83,8 +83,8 @@
 
 //---------------------------------------------------------------------
 //power settings
-#define PH_CURRENT_MAX 1200
-#define BATTERYCURRENT_MAX 5000
+#define PH_CURRENT_MAX 2000
+#define BATTERYCURRENT_MAX 30000
 #define REVERSE 1 //1 for normal direction, -1 for reverse
 #define PUSHASSIST_CURRENT 300
 #define VOLTAGE_MIN 1320 //33V
@@ -92,12 +92,12 @@
 //---------------------------------------------------------------------
 //torquesensor settings
 #define TS_COEF 2400
-//#define TS_MODE
-//#define TQONAD1
+#define TS_MODE
+#define TQONAD1
 
 //---------------------------------------------------------------------
 //Display settings
-#define DISPLAY_TYPE DISPLAY_TYPE_DEBUG
+#define DISPLAY_TYPE DISPLAY_TYPE_KUNTENG
 
 
 //---------------------------------------------------------------------
