@@ -103,7 +103,7 @@
 
 //---------------------------------------------------------------------
 //Display settings
-#define DISPLAY_TYPE DISPLAY_TYPE_KINGMETER //DISPLAY_TYPE_KUNTENG
+#define DISPLAY_TYPE DISPLAY_TYPE_KINGMETER_901U //DISPLAY_TYPE_KUNTENG
 
 //---------------------------------------------------------------------
 //Regen settings
