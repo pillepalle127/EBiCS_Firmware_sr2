@@ -89,11 +89,11 @@
 
 //---------------------------------------------------------------------
 //power settings
-#define PH_CURRENT_MAX 2000
+#define PH_CURRENT_MAX 3000
 #define BATTERYCURRENT_MAX 30000
 #define REVERSE 1 //1 for normal direction, -1 for reverse
 #define PUSHASSIST_CURRENT 300
-#define VOLTAGE_MIN 1520 //33V
+#define VOLTAGE_MIN 1720 //33V
 
 //---------------------------------------------------------------------
 //torquesensor settings
@@ -103,7 +103,7 @@
 
 //---------------------------------------------------------------------
 //Display settings
-#define DISPLAY_TYPE DISPLAY_TYPE_DEBUG  //DISPLAY_TYPE_KUNTENG
+#define DISPLAY_TYPE DISPLAY_TYPE_KINGMETER_901U  //DISPLAY_TYPE_KUNTENG
 
 //---------------------------------------------------------------------
 //Regen settings
@@ -113,6 +113,6 @@
 //#define ADC_BRAKE
 
 //---------------------------------------------------------------------
-#define AUTODETECT 1
+#define AUTODETECT 0
 
 #endif /* CONFIG_H_ */
